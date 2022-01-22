@@ -1,0 +1,104 @@
+body{
+    display:block;
+    font-family: sans-serif;
+    background-image:linear-gradient(rgba(0,0,150,0.3),rgba(0,0,150,0.3),url("b.jpg")) ;
+
+    /* background: #000000; */
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-color: black;
+}
+.container
+{
+    position: relative;
+    height:600px;
+    left:0px;
+   
+}
+.heder
+ {
+    height:140px;
+    width:100%; 
+    background-size: 300px;
+    background-repeat: no-repeat;
+    border-bottom:2px solid rgb(99, 97, 97);
+    padding-top: 50px;
+    font-size: 80px;
+    color:#eeebeb;
+}
+.heading{
+    font-family: 'Abril Fatface', cursive;
+    animation: ColorChange 1s infinite;
+
+}
+@keyframes ColorChange {
+    0%{color: rgb(38, 25, 95);}
+    25%{color: white;}
+    50%{color: yellow;}
+    75%{color: rgb(44, 221, 44);}
+    100%{color: red;}
+    
+}
+.btn{
+    position:absolute;
+    top:45px;
+    right:20px;
+    
+}
+button{
+    color:rgb(22, 22, 21);
+    height:45px;
+    width:100px;
+    margin-right: 30px;
+    background-image: linear-gradient(yellow,rgb(166, 154, 51));
+    border-radius: 10px;   
+}
+button:hover{
+    background-color: rgb(54, 207, 16);
+}
+#data
+{
+    width:99%;
+    height:450px;
+    text-align: right;
+    justify-content: center;
+    display: flex;   
+    
+}
+.table
+{
+    width:800px;
+
+}
+table{
+    color:#db11e2;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 700;
+   
+    
+}
+table tr{
+    border: 1px solid white;
+}
+table tr :hover{
+    background-color:rgb(14, 13, 13);
+    border-radius: 10px;
+    transition: ease-out;
+    box-shadow: 0 8px 32px 0 #FFF;
+    backdrop-filter: blur(40px);
+
+
+}
+img{
+    clip-path: circle();
+    transition: all 1s ease-in-out;
+}
+img:hover{
+    transform: scale(1.5);
+}
+.welcome{
+    font-family: sans-serif;
+    color: rgb(81, 68, 87);
+    padding-top: 120px;
+}
